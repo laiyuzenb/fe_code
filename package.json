@@ -1,0 +1,38 @@
+{
+  "name": "fe_code",
+  "version": "0.0.1",
+  "description": "A static site based on dumi",
+  "scripts": {
+    "start": "PORT=3333 npm run dev",
+    "dev": "dumi dev",
+    "build": "dumi build",
+    "prepare": "husky install && dumi setup"
+  },
+  "authors": [],
+  "license": "MIT",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "*.{md,json}": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "dumi": "^2.2.7",
+    "dumi-theme-antd-style": "^0.29.4",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "@rematch/core": "^2.2.0",
+    "react-redux": "^8.1.2",
+    "redux": "^4.2.1",
+    "zustand": "^4.4.1"
+  }
+}
