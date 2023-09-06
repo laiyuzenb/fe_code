@@ -9,10 +9,10 @@ hero:
     - text: Github
       link: /
 features:
-  - title: bug解决方案
+  - title: 踩坑解决方案
     emoji: 🐞
     description: Put hello description here
-  - title: 好用工具库分享
+  - title: 工具库分享及源码解析
     emoji: 🛠
     description: 酒香也怕巷子深
   - title: 编码建议

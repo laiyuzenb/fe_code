@@ -1,6 +1,7 @@
 ---
-nav: React
-order: 1
+nav:
+  title: React
+  order: 0
 ---
 
 # 状态管理

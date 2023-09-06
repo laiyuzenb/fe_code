@@ -1,9 +1,10 @@
 ---
-nav: React
-order: 0
+nav:
+  title: React
+  order: 0
 ---
 
-# 事件监听
+# addEventListener
 
 在React18版本中调整了事件处理处理机制，导致在以下场景使用，使用`addEventListener`时 与 React18之前的版本处理不一致而导致产生BUG
 

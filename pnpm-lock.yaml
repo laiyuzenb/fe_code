@@ -8,6 +8,9 @@ dependencies:
   '@rematch/core':
     specifier: ^2.2.0
     version: 2.2.0(redux@4.2.1)
+  '@vercel/analytics':
+    specifier: ^1.0.2
+    version: 1.0.2
   react-redux:
     specifier: ^8.1.2
     version: 8.1.2(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
@@ -4013,6 +4016,10 @@ packages:
   /@umijs/zod2ts@4.0.79:
     resolution: {integrity: sha512-p78Y0Ne9/QK78R2HbGqMM6gdO0tRHb9x+YSGA9olBo9DfZXA0eIwHcq9GqHIk5zuFNAgM3qHPAgM1QipfL89Dg==}
     dev: true
+
+  /@vercel/analytics@1.0.2:
+    resolution: {integrity: sha512-BZFxVrv24VbNNl5xMxqUojQIegEeXMI6rX3rg1uVLYUEXsuKNBSAEQf4BWEcjQDp/8aYJOj6m8V4PUA3x/cxgg==}
+    dev: false
 
   /@vitejs/plugin-react@4.0.0(vite@4.3.1):
     resolution: {integrity: sha512-HX0XzMjL3hhOYm+0s95pb0Z7F8O81G7joUHgfDd/9J/ZZf5k4xX6QAMFkKsHFxaHlf6X7GD7+XuaZ66ULiJuhQ==}
