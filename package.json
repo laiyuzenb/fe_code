@@ -30,9 +30,15 @@
     "prettier": "^3.0.3"
   },
   "dependencies": {
+    "@floating-ui/dom": "^1.5.1",
+    "@floating-ui/react": "^0.25.4",
     "@rematch/core": "^2.2.0",
     "@vercel/analytics": "^1.0.2",
+    "array-move": "^4.0.0",
+    "lodash": "^4.17.21",
+    "react-dnd": "^16.0.1",
     "react-redux": "^8.1.2",
+    "react-sortable-hoc": "^2.0.0",
     "redux": "^4.2.1",
     "zustand": "^4.4.1"
   }

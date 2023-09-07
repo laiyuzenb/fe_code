@@ -25,19 +25,7 @@ nav:
 
 它和redux-toolkit类似 都是对redux的使用做了封装，降低了使用时的心智负担（不用再写一堆模版文件了 如 createAction, reducer...）
 
-```jsx
-import { Provider } from 'react-redux';
-import RematchDemo from './demos/rematch.jsx';
-import store from './demos/rematch_store.js';
-
-export default function App() {
-  return (
-    <Provider store={store}>
-      <RematchDemo />
-    </Provider>
-  );
-}
-```
+<code src='./demos/state/rematch/app.jsx'></code>
 
 ### 状态文件结构组织方式建议
 
