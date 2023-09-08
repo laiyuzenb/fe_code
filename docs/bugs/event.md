@@ -1,10 +1,10 @@
 ---
 nav:
-  title: React
-  order: 0
+  title: 特殊场景问题解决方案
+  order: 3
 ---
 
-# addEventListener
+# addEventListener 同步触发回调问题
 
 在React18版本中调整了事件处理处理机制，导致在以下场景使用，使用`addEventListener`时 与 React18之前的版本处理不一致而导致产生BUG
 
