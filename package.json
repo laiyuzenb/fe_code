@@ -4,7 +4,7 @@
   "description": "A static site based on dumi",
   "scripts": {
     "start": "PORT=3333 npm run dev",
-    "dev": "dumi dev",
+    "dev": "PORT=3333 dumi dev",
     "build": "dumi build",
     "prepare": "husky install && dumi setup"
   },
@@ -33,6 +33,7 @@
     "@floating-ui/dom": "^1.5.1",
     "@floating-ui/react": "^0.25.4",
     "@rematch/core": "^2.2.0",
+    "@rive-app/react-canvas": "^4.2.1",
     "@types/react": "^18.2.21",
     "@vercel/analytics": "^1.0.2",
     "ahooks": "^3.7.8",
